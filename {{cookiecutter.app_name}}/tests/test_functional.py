@@ -7,7 +7,7 @@ import pytest
 from flask import url_for
 
 
-from {{cookiecutter.app_name}}.user.models import User
+from {{cookiecutter.app_name}}.models.user import User
 from .factories import UserFactory
 
 

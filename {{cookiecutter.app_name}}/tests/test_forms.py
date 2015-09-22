@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 import pytest
 
-from {{cookiecutter.app_name}}.public.forms import LoginForm
-from {{cookiecutter.app_name}}.user.forms import RegisterForm
+from {{cookiecutter.app_name}}.forms import LoginForm, RegisterForm
 from .factories import UserFactory
 
 

@@ -5,9 +5,8 @@ from flask import (Blueprint, request, render_template, flash, url_for,
 from flask_login import login_user, login_required, logout_user
 
 from {{cookiecutter.app_name}}.extensions import login_manager
-from {{cookiecutter.app_name}}.user.models import User
-from {{cookiecutter.app_name}}.public.forms import LoginForm
-from {{cookiecutter.app_name}}.user.forms import RegisterForm
+from {{cookiecutter.app_name}}.models.user import User
+from {{cookiecutter.app_name}}.forms import LoginForm, RegisterForm
 from {{cookiecutter.app_name}}.utils import flash_errors
 from {{cookiecutter.app_name}}.database import db
 

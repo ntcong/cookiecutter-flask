@@ -2,7 +2,7 @@
 from factory import Sequence, PostGenerationMethodCall
 from factory.alchemy import SQLAlchemyModelFactory
 
-from {{cookiecutter.app_name}}.user.models import User
+from {{cookiecutter.app_name}}.models.user import User
 from {{cookiecutter.app_name}}.database import db
 
 
